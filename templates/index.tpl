@@ -5,10 +5,12 @@
   <title>Project Unseen DEV - {$title}</title>
 </head>
 <body>
-    {include file='header.tpl'}
-
     <a href="index.php">Home</a>&nbsp;|&nbsp;
-    <a href="town.php">Town</a>&nbsp;|&nbsp;
+    <a href="town.php">Town</a>
+    <br /><br />
+
+    {include file='header.tpl'}
+    <br /><br />
 
     {if $tpl_name!=''}
         {include file="$tpl_name.tpl"}
